@@ -1,0 +1,15 @@
+{
+  "name": "nottingham-wayfinder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "University of Nottingham campus wayfinder — single-page web app powered by Superspree RouteLoop.",
+  "scripts": {
+    "start": "serve --no-clipboard --listen ${PORT:-3000} public"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
